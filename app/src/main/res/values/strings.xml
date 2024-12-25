@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AI Image Generator</string>
+    <string name="tagline">\" WHEN CREATIVITY MEETS AI \"</string>
+    <string name="appname">AI IMAGE GENERATOR</string>
+    <string name="button1">Login</string>
+    <string name="name">USERNAME</string>
+    <string name="pass">PASSWORD</string>
+    <string name="button">LOGIN</string>
+    <string name="signup">Don\'t have an account ?</string>
+    <string name="register">SIGNUP</string>
+    <string name="email">EMAIL</string>
+    <string name="pass2">CONFIRM PASSWORD</string>
+    <string name="signup2">REGISTRATION</string>
+    <string name="already">Already have an account ?</string>
+</resources>
