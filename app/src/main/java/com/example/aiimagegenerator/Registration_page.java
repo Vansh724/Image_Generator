@@ -2,21 +2,18 @@ package com.example.aiimagegenerator;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Editable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class Registration_page extends AppCompatActivity {
-    EditText editTextLoginUSERNAME, editTextLoginPassword;
-    Button buttonLogin;
+    EditText editTextregUSERNAME, editTextregPassword, editTextregConfirm ,editTextregEmail;
+    Button buttonreg;
     TextView textViewNewuser;
 
     @Override
@@ -24,27 +21,30 @@ public class Registration_page extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_registration_page);
-        editTextLoginPassword = findViewById(R.id.editTextLoginPASSWORD);
-        editTextLoginUSERNAME = findViewById(R.id.editTextLoginUSERNAME);
-        buttonLogin = findViewById(R.id.buttonLogin);
+        editTextregPassword = findViewById(R.id.editTextregPASSWORD);
+        editTextregUSERNAME = findViewById(R.id.editTextregUSERNAME);
+        buttonreg = findViewById(R.id.buttonreg);
         textViewNewuser = findViewById(R.id.textViewNewuser);
-        textViewNewuser.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent iReg = new Intent(Registration_page.this, LoginPage.class);
-                startActivity(iReg);
-            }
+        textViewNewuser.setOnClickListener(view -> {
+            Intent iReg = new Intent(Registration_page.this, LoginPage.class);
+            startActivity(iReg);
         });
 
+          buttonreg.setOnClickListener(new View.OnClickListener() {
+              @Override
+              public void onClick(View view) {
+                  String Username = editTextregUSERNAME.getText().toString();
+                  String Password = editTextregPassword.getText().toString();
+                  String email = editTextregEmail.getText().toString();
+                  String confirm = editTextregConfirm.getText().toString();
+                  if (Username.isEmpty() || Password.isEmpty() || email.isEmpty() || confirm.isEmpty()) {
+                      Toast.makeText(getApplicationContext(), "Please fill all the fields", Toast.LENGTH_SHORT).show();
+                  }
+                  if (!Password.equals(confirm)) {
+                      Toast.makeText(getApplicationContext(), "Passwords do not match", Toast.LENGTH_SHORT).show();
 
-
-
-
-
-
-
-
-
-
+                  }
+              }
+          });
     }
 }

@@ -24,7 +24,7 @@
         tools:targetApi="s" />
 
     <EditText
-        android:id="@+id/editTextLoginPASSWORD"
+        android:id="@+id/editTextregPASSWORD"
         android:layout_width="289dp"
         android:layout_height="52dp"
         android:background="@drawable/input_bg"
@@ -45,7 +45,7 @@
         app:layout_constraintVertical_bias="0.642" />
 
     <EditText
-        android:id="@+id/editTextLoginPASSWORD1"
+        android:id="@+id/editTextregEmail"
         android:layout_width="289dp"
         android:layout_height="52dp"
         android:background="@drawable/input_bg"
@@ -99,7 +99,7 @@
         tools:targetApi="upside_down_cake" />
 
     <EditText
-        android:id="@+id/editTextLoginUSERNAME"
+        android:id="@+id/editTextregUSERNAME"
         android:layout_width="289dp"
         android:layout_height="52dp"
         android:background="@drawable/input_bg"
@@ -121,7 +121,7 @@
         app:layout_constraintVertical_bias="0.425" />
 
     <EditText
-        android:id="@+id/editTextLoginPASSWORD2"
+        android:id="@+id/editTextregConfirm"
         android:layout_width="289dp"
         android:layout_height="52dp"
         android:background="@drawable/input_bg"
@@ -142,7 +142,7 @@
         app:layout_constraintVertical_bias="0.764" />
 
     <Button
-        android:id="@+id/buttonLogin"
+        android:id="@+id/buttonreg"
         android:layout_width="280dp"
         android:layout_height="56dp"
         android:background="@drawable/btn_bg"
