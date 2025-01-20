@@ -82,19 +82,19 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+        android:layout_width="550dp"
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
         android:text="@string/signup2"
         android:textColor="@android:color/system_surface_dark"
-        android:textSize="40sp"
+        android:textSize="38sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.66"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.249"
+        app:layout_constraintVertical_bias="0.247"
         tools:targetApi="upside_down_cake" />
 
     <EditText

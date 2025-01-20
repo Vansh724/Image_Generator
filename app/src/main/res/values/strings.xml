@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">AI Image Generator</string>
-    <string name="tagline">\" WHERE CREATIVITY MEETS AI \"</string>
-    <string name="appname">AI IMAGE GENERATOR</string>
+    <string name="app_name">Pixtric</string>
+    <string name="tagline">Imagination Meets AI</string>
+    <string name="appname">PIXTRIC</string>
     <string name="button1">Login</string>
     <string name="name">USERNAME</string>
     <string name="pass">PASSWORD</string>
@@ -16,5 +16,24 @@
     <string name="about">About</string>
     <string name="History">History</string>
     <string name="Settings">Settings</string>
-    <string name="hi">JUST A LEARNER</string>
+    <string name="hi">Welcome to PIXTRIC,
+        where Imagination meets AI!
+        Our powerful image generator app lets you
+        create stunning visuals effortlessly.Whether
+        you are an artist, designer, or content creator,
+        PIXTRIC transforms your ideas into breathtaking
+        digital art in seconds.With an intuitive interface
+        and advanced AI, you can generate unique graphics,
+        illustrations, and designs without any technical skills.
+        Perfect for social media, marketing, or personal
+        projects—PIXTRIC brings your creativity to life
+        with just a few clicks.Explore endless possibilities
+        and let your imagination soar with PIXTRIC today!</string>
 </resources>
+
+
+
+
+
+
+

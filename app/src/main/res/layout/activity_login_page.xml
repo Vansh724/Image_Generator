@@ -5,25 +5,65 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/draw2"
+    android:background="@drawable/background_login"
     tools:context=".LoginPage">
 
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="450sp"
+        android:layout_height="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028"
+        app:srcCompat="@drawable/logoo" />
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView0"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="sans-serif-smallcaps"-->
+<!--        android:text="@string/app_name"-->
+<!--        android:textColor="@color/design_default_color_background"-->
+<!--        android:textSize="38sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.491"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.101" />-->
+
     <TextView
-        android:id="@+id/textView0"
+        android:id="@+id/tagline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-smallcaps"
-        android:text="@string/app_name"
+        android:fontFamily="serif-monospace"
+        android:text="@string/tagline"
         android:textColor="@color/design_default_color_background"
-        android:textSize="38sp"
-        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textStyle="bold|"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.101" />
+        app:layout_constraintVertical_bias="0.181" />
+<!--    <ImageView-->
+<!--        android:id="@+id/tagline"-->
+<!--        android:layout_width="120pt"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.67"-->
+<!--        app:srcCompat="@drawable/tagline" />-->
 
     <TextView
         android:id="@+id/textView3"
@@ -32,7 +72,7 @@
         android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/button1"
         android:textColor="@android:color/system_tertiary_fixed_dim"
-        android:textSize="60sp"
+        android:textSize="53sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -90,6 +130,7 @@
         android:background="@drawable/btn_bg"
         android:shadowColor="@color/black"
         android:text="@string/button"
+        android:textSize="18sp"
         android:textColorLink="@color/design_default_color_primary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
